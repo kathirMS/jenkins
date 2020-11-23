@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String getString(){
-        return "hai i am come again ";
+        return "This website was automatically hosted";
     }
 }
